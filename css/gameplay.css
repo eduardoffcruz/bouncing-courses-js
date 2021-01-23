@@ -1,0 +1,222 @@
+main{
+  background: #D3D3D3;
+}
+
+canvas{
+    margin: auto;
+    display: block;
+    border:none;
+    border-bottom: 4px solid grey;
+}
+/*note:The padding area is the space between the content of the element and its border.*/
+#gameBar{
+  width: 100%;
+  height: 100px;
+  top:664px;
+  left:0px;
+  position: absolute;
+}
+
+#time{
+  position: absolute;
+  font-size: 40px;
+  top:-2px;
+  right:1.8%;
+}
+
+#level{
+  position: absolute;
+  font-size: 48px;
+  top:35%;
+  left:48%;
+  height:45px;
+  width: 55px;
+  font-weight: bold;
+  border-radius:2px;
+  text-align: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#playerName{
+  position: absolute;
+  font-size: 48px;
+  top:37%;
+  left:7.8%;
+  height:45px;
+  width: 18%;
+  text-align:right;
+}
+
+#pointsNum{
+  position: absolute;
+  font-size: 48px;
+  top:35%;
+  left:26%;
+  height:45px;
+  width: 16%;
+  border:inset;
+  text-align: center;
+  color:#3f3f3f;
+}
+
+#lifes{
+  position: absolute;
+  font-size: 48px;
+  top:37%;
+  right:28%;
+  height:45px;
+  width: 8%;
+  text-align: center;
+}
+
+#lifesNum{
+  position: absolute;
+  font-size: 48px;
+  top:35%;
+  right:19%;
+  height:45px;
+  width: 7%;
+  border:inset;
+  text-align: center;
+  color:#8E1600;
+}
+
+#alertBackground,#pause{
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  display: none;
+}
+
+#alertBackground{
+  background-color: rgba(0,0,0,0.2);
+}
+
+#titleTxt{
+  top:0px;
+  color: white;
+  text-align: center;
+  font-size: 130px;
+}
+
+#popUp{
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0,64,128,1);
+  border: 5px solid grey;
+  /*border-style: inset;*/
+  text-align: center;
+  position: relative;
+  padding:25px;
+  box-shadow: 0 0 40px black;
+}
+
+#alert{
+  background-color: rgba(0,64,128,0.9);
+  box-shadow: 0 0 8px black;
+  text-align: center;
+  padding: 0px 60px;
+}
+
+#message{
+  line-height: 0.6; /*espaçamento entre linhas*/
+  font-size: 50px;
+  color:white;
+}
+
+/*TIME BAR DESIGN*/
+#bar{
+  width:80%;
+  background-color: transparent;
+  border-style: inset;
+  position: absolute;
+  left:10%;
+  top:0px;
+}
+
+#timeBar{
+  width:90%;
+  height:30px;
+  border: none;
+  background-color:#004080;
+  position: relative;
+}
+/*-----------------*/
+#pauseBtn{
+  left:1.9%;
+  top:14%;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  padding: 0px;
+}
+
+#pauseBtn:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+button{
+  background-color: #FFDA03;
+  color: black;
+  text-align: center;
+	font-family:"pixel";
+	font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition-duration: 0.25s;
+  position: relative;
+}
+
+#backBtn:hover,#menuBtn:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+#backBtn,#menuBtn{
+  display: block;
+  left:23%;
+  top:10%;
+  padding: 8px 20px;
+  width: 52%;
+}
+
+#soundBtn{
+  position: absolute;
+  top: 78%;
+  left:30%;
+  background-color: transparent;
+  border: none;
+}
+
+#musicBtn{
+  position: absolute;
+  top: 78%;
+  left:55%;
+  background-color: transparent;
+  border: none;
+}
+
+#soundBtn:hover,#musicBtn:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+button img
+{
+	margin: 0px;
+	height: 60px;
+}
+
+*{
+    outline: 0;
+}

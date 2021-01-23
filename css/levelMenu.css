@@ -1,0 +1,24 @@
+#titleTxt{
+  top:8%;
+  left: 38%;
+  position: absolute;
+  color: white;
+  text-align: center;
+/*	font-weight: bold;*/
+  font-size: 130px;
+  text-shadow: 2px 4px 2px #000000;
+}
+/*button area*/
+#lvlBtns{
+  position: relative;
+  width: 25%;
+  height: 65%;
+  top:25%;
+  left:38%;
+}
+
+#lvlNum{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}

@@ -1,0 +1,50 @@
+#table{
+  position: relative;
+  top:0%;
+  height: 70%;
+  width: 100%;
+}
+#survival{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left:50%;
+  border: 3px solid grey;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  line-height: 0.6;
+}
+#arcade{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left:0%;
+  border: 3px solid grey;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  line-height: 0.6;
+  border-right: none;
+}
+#titleTxt{
+  text-shadow: 2px 4px 2px #000000;
+  top:0px;
+  color: white;
+  text-align: center;
+  font-size: 120px;
+}
+#titleArcade{
+  text-shadow: 2px 4px 2px #000000;
+  top:0px;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}
+#titleSurvival{
+  text-shadow: 2px 4px 2px #000000;
+  top:0px;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}

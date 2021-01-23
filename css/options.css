@@ -1,0 +1,68 @@
+#maleImg{
+  position: absolute;
+  right:33%;
+  top:45%;
+  cursor: pointer;
+}
+#femaleImg{
+  position: absolute;
+  right:15%;
+  top:45%;
+  cursor: pointer;
+}
+#titleTxt{
+  top:0px;
+  color: white;
+  text-align: center;
+  font-size: 140px;
+  text-shadow: 2px 4px 2px #000000;
+}
+p{
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 65px;
+}
+#p1{
+  top:30%;
+  left:13%;
+}
+#p2{
+  top:25%;
+  left:50%;
+}
+#soundBtn{
+  position: absolute;
+  top: 50%;
+  left:27%;
+  background-color: transparent;
+  border: none;
+}
+
+#musicBtn{
+  position: absolute;
+  top: 50%;
+  left:12%;
+  background-color: transparent;
+  border: none;
+}
+
+#soundBtn:hover,#musicBtn:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+button{
+  cursor: pointer;
+}
+
+button img
+{
+	margin: 0px;
+	height: 75px;
+}
+
+*{
+    outline: 0;
+}

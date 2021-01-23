@@ -1,0 +1,18 @@
+body
+{
+	margin: 0px;
+	background-color: #D3D3D3;
+	font-family:"pixel";
+}
+
+main
+{
+	margin: auto;
+	width: 1000px;
+	height: 764px;
+}
+
+@font-face{
+  font-family: pixel;
+  src: url('./pixelFont.ttf');
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "type":"Subject",
+    "x":850,
+    "y":300,
+    "radius":65,
+    "color":"grey",
+    "direction":"r"
+  },
+  {
+    "type":"Subject",
+    "x":20,
+    "y":300,
+    "radius":80,
+    "color":"blue",
+    "direction":"l"
+  },
+  {
+    "type":"Brick",
+    "x":480,
+    "y":310
+  },
+  {
+    "type":"Config",
+    "background":"../resources/background/6.png",
+    "time":160
+  }
+]

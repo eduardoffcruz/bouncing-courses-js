@@ -1,0 +1,23 @@
+[
+  {
+    "type":"Subject",
+    "x":482,
+    "y":500,
+    "radius":25,
+    "color":"red",
+    "direction":"r"
+  },
+  {
+    "type":"Subject",
+    "x":482,
+    "y":500,
+    "radius":15,
+    "color":"yellow",
+    "direction":"l"
+  },
+  {
+    "type":"Config",
+    "background":"../resources/background/1.png",
+    "time":20
+  }
+]

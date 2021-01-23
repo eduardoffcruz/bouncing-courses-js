@@ -1,0 +1,37 @@
+[
+  {
+    "type":"Subject",
+    "x":50,
+    "y":370,
+    "radius":65,
+    "color":"navy",
+    "direction":"r"
+  },
+  {
+    "type":"Subject",
+    "x":820,
+    "y":370,
+    "radius":65,
+    "color":"navy",
+    "direction":"l"
+  },
+  {
+    "type":"Config",
+    "background":"../resources/background/4.png",
+    "time":120
+  },
+  {
+    "type":"Brick",
+    "pattern":"horizontal",
+    "x":0,
+    "y":500,
+    "quantity":11
+  },
+  {
+    "type":"Brick",
+    "pattern":"horizontal",
+    "x":560,
+    "y":500,
+    "quantity":11
+  }
+]

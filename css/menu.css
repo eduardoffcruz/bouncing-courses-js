@@ -1,0 +1,120 @@
+main{
+  background: #004080;
+  border: 25px solid grey;
+  border-style: inset;
+  width: 950px; /*-50px because border takes space*/
+	height: 714px;
+  position: relative;
+}
+
+#titleTxt{
+  top:2%;
+  left: 39%;
+  position: absolute;
+  color: white;
+  text-align: center;
+/*	font-weight: bold;*/
+  font-size: 180px;
+  text-shadow: 2px 4px 2px #000000;
+}
+
+button{
+  display: block;
+  padding: 8px 20px;
+  width: 20%;
+  border-radius: 2px;
+  transition-duration: 0.25s;
+  background-color: #FFDA03;
+  color: black;
+  text-align: center;
+	font-family:"pixel";
+	font-weight: bold;
+  font-size: 55px;
+  cursor: pointer;
+}
+
+#groupBtn button{
+  position: relative;
+  left: 40%;
+  top: 216px;
+}
+
+button:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#exitBtn{
+  position: absolute;
+  top:86%;
+  left:85.5%;
+  opacity: 0.55;
+  width: auto;
+}
+
+#exitBtn:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity:1;
+}
+
+#creditsBtn{
+  position: absolute;
+  top: 52%;
+  left:6%;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  animation: bounce 1.8s infinite;
+  cursor: pointer;
+}
+
+@keyframes bounce{
+  55%{
+    transform: translateY(-180px);
+  }
+}
+
+#bounceShadow{
+  background-color: rgba(0,25,50,0.2);
+  height:40px;
+  width: 220px;
+  border-radius: 50%;
+  position: absolute;
+  top:80%;
+  left:7.8%;
+  animation: adapt 1.8s infinite;
+}
+
+@keyframes adapt{
+  60%{
+    transform: scaleX(0.6);
+  }
+}
+
+#p1{
+  position: absolute;
+  font-style: italic;
+  opacity: 0.3;
+  color: white;
+  text-align: center;
+	font-family:"pixel";
+  font-size: 50px;
+  top:72%;
+  left:14%;
+  animation: adapt 1.8s infinite;
+}
+
+button img
+{
+	margin: 0px;
+	height: 200px;
+}
+
+
+*{
+    outline: 0;
+}

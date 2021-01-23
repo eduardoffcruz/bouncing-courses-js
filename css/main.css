@@ -1,0 +1,18 @@
+body
+{
+	margin: 0px;
+}
+
+iframe
+{
+  background: #D3D3D3;
+  width: 1000px;
+	height: 764px;
+	margin: auto;
+	display:block;
+	border:none;
+}
+
+*{
+  outline: 0;
+}

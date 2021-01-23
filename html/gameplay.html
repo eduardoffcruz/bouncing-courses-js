@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Cadeiras Saltitonas</title>
+	<link rel="shortcut icon" type="image/png" href="../resources/favicon.png">
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/gameplay.css">
+	<link rel="stylesheet" type="text/css" href="../css/basic.css">
+	<script type="text/javascript" src="../js/gameplay.js"></script>
+	<script type="text/javascript" src="../js/Game.js"></script>
+	<script type="text/javascript" src="../js/Objects.js"></script>
+	<script type="text/javascript" src="../js/menuBtn.js"></script>
+</head>
+
+<body>
+	<main>
+		<canvas id="myCanvas" width="1000" height="660">
+		Your browser does not support HTML5 canvas.
+		</canvas>
+		<div id="gameBar">
+			<button id="pauseBtn"><img src="../resources/button/pauseBtn.png"></button>
+			<div id="time"></div>
+			<div id="level"></div>
+			<div id="playerName"></div>
+			<div id="pointsNum"></div>
+			<div id="lifes">VIDAS:</div>
+			<div id="lifesNum"></div>
+			<div id="bar">
+				<div id="timeBar"></div>
+			</div>
+		</div>
+		<div id="pause">
+			<div id="popUp">
+				<div id="titleTxt">PAUSA</div>
+				<button id="soundBtn"><img id="soundImg"></button>
+				<button id="musicBtn"><img id="musicImg"></button>
+				<button id="backBtn">CONTINUAR</button>
+				<button id="menuBtn">REGRESSAR AO MENU</button>
+			</div>
+		</div>
+		<div id="alertBackground">
+			<div id="alert">
+				<p id="message"></p>
+			</div>
+		</div>
+	</main>
+</body>

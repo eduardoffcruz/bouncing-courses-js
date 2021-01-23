@@ -1,0 +1,93 @@
+#titleTxt{
+  text-shadow: 2px 4px 2px #000000;
+  top:0%;
+  color: white;
+  text-align: center;
+  font-size: 160px;
+}
+
+#p1{
+  top:30%;
+  left: 26%;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  line-height: 1.4;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#p2{
+    position: absolute;
+    top: 72%;
+    left: 21%;
+    font-size: 90px;
+    letter-spacing: 17px;
+    color: black;
+    text-shadow: -1px 0 #FFDA03, 0 1px #FFDA03, 1px 0 #FFDA03, 0 -1px #FFDA03;
+}
+
+#p3{
+  position: absolute;
+  top: 60%;
+  left: 29.8%;
+  font-size: 50px;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#me{
+  margin: 0px;
+  height: 125px;
+  top:46.5%;
+  left:29%;
+  position: absolute;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+#me:hover{
+-webkit-transform: scale(0.95);
+-ms-transform: scale(0.95);
+transform: scale(0.95);
+}
+
+#p5{
+  top:30%;
+  right: 25%;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  line-height: 1.4;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#p4{
+  position: absolute;
+  top: 60%;
+  right: 24.9%;
+  font-size: 50px;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#lotus{
+  margin: 0px;
+  height: 125px;
+  top: 46.5%;
+  right:28%;
+  position: absolute;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+#lotus:hover{
+-webkit-transform: scale(0.95);
+-ms-transform: scale(0.95);
+transform: scale(0.95);
+}
+
+*{
+    outline: 0;
+}

@@ -1,0 +1,29 @@
+main{
+  background: #004080;
+  border: 25px solid grey;
+  border-style: inset;
+  width: 950px; /*-50px because border takes space*/
+	height: 714px;/*-50*/
+}
+/*Botao para voltar ao menu q existe em todas as paginas do menu*/
+#menuBtn{
+  background-color: #FFDA03;
+  color: black;
+  text-align: center;
+	font-family:"pixel";
+	font-weight: bold;
+  font-size: 55px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition-duration: 0.25s;
+  position: absolute;
+  bottom:6%;
+  left:5%;
+  width: 140px;
+}
+
+#menuBtn:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
