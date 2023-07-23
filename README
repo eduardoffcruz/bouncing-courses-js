@@ -1,4 +1,6 @@
 =====================Bouncing Courses====================
 	Pure Javascript Web Game using HTML Canvas 
-	- in the context of the Multimedia sourse
+	- in the context of the Multimedia course
 ===========================@2020============================
+
+Levels can be created/modified through json files: see 'levels/' directory. 
